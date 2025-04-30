@@ -1,0 +1,144 @@
+body{
+    display: flex; /* sudes i viena eile visus dabar vaikus */
+    flex-direction: column; /* surikiuojam is virsaus i apacia stulpu */
+    gap: 50px; /* padarom tarpa tarp ju */
+    align-items: center; /* jeigu direction colum naudojam alina*/
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;/* kabutes butinos kai keli zodziai su tarpu     */
+}
+
+.pomidoras{ /*jeigu pries zodi taskas tai klases rinkinys bus pvz <nav class="pomidoras' > ir pagal tai ji paims. pvz pazymeta navas ir 404 ir juos dabar keicia.   */
+
+    border-radius: 5px;
+}
+.container{ display: flex;
+    justify-content: space-between;
+    align-items: center; /* issicentruoja pagal clay dydi jo centre nav eilute */
+    width: 800px;
+
+}
+header{
+    margin-top: 25px;
+
+}
+.logo{
+    height: 40px;
+}
+.main-nav{
+    display: flex;
+    gap:20px;
+}
+.main-nav > a {
+    color: #333;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+.main-nav>.link:hover{ /* per klases uztargetinam ji */
+    background-color: #554485;
+    color:white;
+    border-radius: 0px;
+
+}
+  
+  .main-title {
+    margin: 0;
+    font-size: 50px;
+    font-weight: normal;
+  }
+  div > p {
+    margin: 0;
+    margin-bottom: 40px;
+  }
+  div > p:first-of-type {/*                      */
+    font-size: 50px;
+    font-weight: bold;
+  }
+  .desc {
+    font-size: 20px;
+    margin: 0px;
+    margin-bottom: 40px;
+  }
+  .btn-group{
+    display: flex;
+
+
+  }
+
+  .btn {
+    background-color: #554485;
+    color: #fff;
+    padding: 16px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 30px;
+    border: 4px solid #554485;
+  }
+.btn:last-child{
+    background-color: #fff;
+    color:#554485;
+    border:3px,solid,#554485; /*galima rasyti stori, buda linijos ir spalva*/
+    margin-left: 20px;
+    cursor: pointer; 
+    
+}
+.btn:hover{ /* kai ejus ant mygtuko jis pasidaro raudonas be tarpo reikia rasyti main a:hover  */
+    background-color:white;
+    color:#554485; /* uzejus pasidaro be apvalus mygtukas */
+}
+.btn:last-child:hover{
+    background-color:#554485;
+    color:white;
+}
+
+.main-img {
+    width: 60%;
+  }
+
+footer {
+  
+    background-color: lightgray;
+  }
+  
+  footer > div {
+  }
+.copy-write{
+    margin: 0;
+  }
+
+
+/*Display flex jeigu turi tevinis galima taikyti vaikiniam elementam butinai turi teviniam display flex.
+
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+flex-direction kryptis row, colum 
+flew-wrap: nowrap default | wrap elgsis kaip tekstas 
+justify-content: flex start kairiam kraste| flex-end desiniam kraste| center centre bus | space-between | space-around aplinkui save vienodai atsistumia | space-evenly vienodais atstumais 
+align-items | flex-start vertikalus rykiavimas| flext-end palei apacia i virsu | contre| stretch per visa issitempia kaip vertikaliai|baseline 
+align-content turinio rikiavimas
+gap: atstumai tarp vaiku 10px 30 px galima viena galima duskaicius pradzioje vertikaliai o paskui tarp stulpeliu. 
+
+vaikams: 
+flex-grow: galima dydi atskiru elementu reguliuoti
+align-self:save vaikas gali palygiuoti kitur. 
+main a:hover{ /* kai ejus ant mygtuko jis pasidaro raudonas be tarpo reikia rasyti main a:hover  
+background-color:blue
+border-radius: 0 px; uzejus pasidaro i kvadratini mygtuka
+cursor: uzejus kursorius pasikeicia i norima;
+
+https://www.w3schools.com/html/html_entities.asp 
+
+galima vietoje (c) naudoti &copy bus (c) normali.  
+
+class perpanaudojamas stiliaus rinkinys 
+.class
+*/
+
+
+
+
