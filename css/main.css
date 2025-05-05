@@ -102,13 +102,18 @@ header{
 
 footer {
   
-    background-color: lightgray;
+    margin-bottom: 40px;
+    font-size: larger;
   }
   
   footer > div {
   }
 .copy-write{
     margin: 0;
+  }
+  .socials >.fa{
+    text-decoration: none;
+    color:grey;
   }
 
 
