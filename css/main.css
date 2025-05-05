@@ -101,19 +101,22 @@ header{
   }
 
 footer {
-  
-    margin-bottom: 40px;
-    font-size: larger;
+  display: flex;
+  font-size: larger;
   }
   
-  footer > div {
-  }
 .copy-write{
     margin: 0;
   }
-  .socials >.fa{
+  .socials >.icon{
+    display: flex;
+    display: inline;
     text-decoration: none;
+    padding: 10px;
     color:grey;
+  }
+  .socials>.icon:hover{
+    background-color:red;
   }
 
 
